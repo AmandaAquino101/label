@@ -1,0 +1,15 @@
+Aluna: Amanda Aquino Teixeira 		Turma: 71313A
+- Rótulo é um conjunto de instruções de texto ou informações que declaram o propósito de cada componente. É criado pela classe JLabel. 
+- A Classe JFrame fornece: barra de título, botões para minimizar, maximizar e fechar a aplicação. É para determinar a posição de cada componente GUI.
+- No material utilizado em sala, será utilizado gerenciadores de layout Java, porque grande parte das IDEs já fornecem ferramentas de design de GUI. Com a finalidade de que os códigos criados rodem em qualquer IDE, não utilizares um IDE que crie o código GUI.
+- FlowLayout: É o gerenciador de layout mais simples. Os componentes GUI são colocados em um contêiner da esquerda para a direita na ordem em que são adicionados.
+- Caso o componente GUI não seja devidamente adicionado ao contêiner, ele não será exibido na tela.
+- O método setToolTipTex, da classe JComponent, tem a função de especificar a dica de ferramenta. Já o add, da classe Container, adiciona um componente a um contêiner. 
+- Ícone: aprimora a aparência e o comportamento de um aplicativo, além de indicar a função. Geralmente, o ícone é especificado com o argumento Icon para um construtor ou para o método setIcon do componente. Um Icon é um objeto de qualquer classe que implementa a interface Icon (pacote javax.swing). ImageIcon suporta GIFS, PNG, JPEG.
+- getClass().getResource("bug1.png") 
+ tem a função de, além de recarregar as outras classes, de determinar a localização de algo, como a de uma imagem.
+-  SwingConstants (javax.swing): Declara um conjunto de constantes inteiras comuns, como
+as utilizadas para configurar o alinhamento dos
+componentes. Pode ser usado com os métodos
+setHorizontalAlignment e
+setVerticalAlignment.
